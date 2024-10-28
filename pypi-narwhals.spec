@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-narwhals
-Version  : 1.10.0
-Release  : 10
-URL      : https://files.pythonhosted.org/packages/a6/43/5f03a6c1976f8f8053f98d33892be6534fcde908dd1827fe69eb3b9ad90f/narwhals-1.10.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/a6/43/5f03a6c1976f8f8053f98d33892be6534fcde908dd1827fe69eb3b9ad90f/narwhals-1.10.0.tar.gz
+Version  : 1.11.1
+Release  : 11
+URL      : https://files.pythonhosted.org/packages/c1/b1/89f02946bf210b290c74d066a6fba791bdeec005b082e77bb1e9d16175ff/narwhals-1.11.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/c1/b1/89f02946bf210b290c74d066a6fba791bdeec005b082e77bb1e9d16175ff/narwhals-1.11.1.tar.gz
 Summary  : Extremely lightweight compatibility layer between dataframe libraries
 Group    : Development/Tools
 License  : MIT
@@ -59,15 +59,15 @@ python3 components for the pypi-narwhals package.
 
 
 %prep
-%setup -q -n narwhals-1.10.0
-cd %{_builddir}/narwhals-1.10.0
+%setup -q -n narwhals-1.11.1
+cd %{_builddir}/narwhals-1.11.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1729528452
+export SOURCE_DATE_EPOCH=1730124751
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
