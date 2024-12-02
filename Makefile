@@ -1,5 +1,5 @@
 PKG_NAME := pypi-narwhals
-URL = https://files.pythonhosted.org/packages/1d/f0/26c7fde4db697e166582e526627e6824252b6c462a2cd2e97ae117f5a69e/narwhals-1.14.2.tar.gz
+URL = https://files.pythonhosted.org/packages/c8/93/2b89ee3344d49adaa0d81b5731643fb42d6016dece04089bd46c840bf4ed/narwhals-1.15.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
