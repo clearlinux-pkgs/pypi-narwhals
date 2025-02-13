@@ -7,7 +7,7 @@
 #
 Name     : pypi-narwhals
 Version  : 1.26.0
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/18/6f/75929abaac73088fe34c788ecb40db20252174bcd00b8612381aebb954ee/narwhals-1.26.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/18/6f/75929abaac73088fe34c788ecb40db20252174bcd00b8612381aebb954ee/narwhals-1.26.0.tar.gz
 Summary  : Extremely lightweight compatibility layer between dataframe libraries
